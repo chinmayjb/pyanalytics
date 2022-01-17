@@ -156,7 +156,7 @@ marksz
 #combine and then split
 
 #%% #numpy - array - same data type - numerical python
-list1 = [1,2,3,5]
+list1 = [1,2,3,5, 'a']
 list1
 import numpy
 numpy.array([10,20])
@@ -281,7 +281,7 @@ data2a  #not defined
 data2a = pd.read_csv('mtcars.csv') #when csv is in project folder
 data2a
 data2b #not defined
-data2b = pd.read_csv('E:/analytics/projects/pyanalytics/mtcars.csv')
+data2b = pd.read_csv('C:/analytics/projects/pyanalytics/mtcars.csv')
 data2b
 #csv in any other location - full path
 data2b
